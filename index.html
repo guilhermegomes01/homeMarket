@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>HomeMarket</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="homeMarket.css" />
+</head>
+<body>
+    <!--Inicio Navbar-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!--Primeiro container-->
+            <div class="navbar-header">
+                <!--Opção de Menu quando reduz a tela-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--Logo junto com o texto-->
+                <a class="navbar-brand" href="#">
+                    <img src="imagens\logo.png" class="img-responsive" id="logo">
+                    <p class="textoLogo">HomeMarket</p>
+                    <p class="textoLogo" id="textoMenorLogo">Conveniência em casa</p>
+                </a>
+            </div>
+            <!--Tópicos que ficam do lado direito da navbar-->
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Vantagens</a>
+                    </li>
+                    <li>
+                        <a href="#">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Fim do Navbar-->
+
+    <!--Inicio do Container com o paragráfo de 'Vantagens'-->
+    <img src="imagens\Banner.png" class="img-responsive" id="imagemBanner">
+    <div class="container-fluid" id="containerVantagensTexto">
+        <div class="col-md-8 col-xs-9 col-sm-9">
+            <h1 id="textoVantagens">Vantagens</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam semper posuere urna, nec tincidunt mi. Donec egestas
+                finibus neque, id pharetra mauris egestas varius. Nulla dictum, risus vitae porta placerat, lorem metus maximus
+                purus, at congue tellus ipsum congue sapien. Sed dictum lacus quis sem elementum porttitor. Morbi ut tortor
+                non augue laoreet porta. Morbi at lectus ut elit rhoncus bibendum.</p>
+        </div>
+        <div class="col-md-4 col-xs-3 col-sm-3">
+        </div>
+    </div>
+    <!--Fim do Container-->
+
+    <!--Inicio do Container dos Itens de 'Vantagens'-->
+    <div class="container-fluid" id="containerVantagensItens">
+        <div class="col-md-2"></div>
+        <div class="col-md-3 col-xs-12 col-sm-12">
+            <p class="numeroItem">1</p>
+            <p class="tituloItem">Conveniente</p>
+            <p id="descricaoItem">Nossos produtos estarão disponíveis no momento em que você mais precisa deles. Dessa forma nunca foi tão fácil
+                comprar!
+            </p>
+        </div>
+        <div class="col-md-3 col-xs-12 col-sm-12">
+            <p class="numeroItem">2</p>
+            <p class="tituloItem">Fácil</p>
+            <p id="descricaoItem">Nosso aplicativo foi desenvolvido para facilitar sua vida, a compra pode ser feita com apenas 2 clicks.</p>
+        </div>
+        <div class="col-md-3 col-xs-12 col-sm-12">
+            <p class="numeroItem">3</p>
+            <p class="tituloItem">Seguro</p>
+            <p id="descricaoItem">Todos nossos itens estarão disponíveis sem que você precise sair de casa. Além disso, todos os seus dados são
+                guardados à sete chaves.
+            </p>
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+    <!--Fim do Container dos Itens de 'Vantagens'-->
+
+    <!--Inicio Container Sobre a Empresa-->
+    <div class="container-fluid" id="containerSobreEmpresa">
+        <!--Linha 'Conheça o Market'-->
+        <div class="row">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <h3 id="textoDestaque">Conheça o</h3>
+                <h2 id="nomeEmpresa">Home Market</h2>
+            </div>
+            <div class="col-md-8"></div>
+        </div>
+        <!--Linha 'Nossa História'-->
+        <div class="row" id="linhaHistoria">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <img src="imagens\historia.png" class="img-responsive" id="imagemValores">
+            </div>
+            <div class="col-md-8 col-sm-8 col-xs-8">
+                <h3 class="tituloValoresEmpresa">Nossa História</h3>
+                <p>Começamos nossa jornada em 2017 com o intuito de montar um produto que proporcionasse aos nossos clientes
+                    patricidade, comodidade e disponibilidade 24h. Nesse cenário surgiu o Home Market, que propõe mudar a
+                    forma como você compra.
+                </p>
+            </div>
+        </div>
+        <!--Linha 'Nossa Missão'-->
+        <div class="row" id="linhaMissao">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <img src="imagens\missao.png" class="img-responsive" id="imagemValores">
+            </div>
+            <div class="col-md-8 col-sm-8 col-xs-8">
+                <h3 class="tituloValoresEmpresa">Nossa Missão</h3>
+                <p>Começamos nossa jornada em 2017 com o intuito de montar um produto que proporcionasse aos nossos clientes
+                    patricidade, comodidade e disponibilidade 24h. Nesse cenário surgiu o Home Market, que propõe mudar a
+                    forma como você compra.
+                </p>
+            </div>
+        </div>
+        <!--Linha Tecnologia-->
+        <div class="row" id="linhaTecnologia">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <img src="imagens\tecnologia.png" class="img-responsive" id="imagemValores">
+            </div>
+            <div class="col-md-8 col-sm-8 col-xs-8">
+                <h3 class="tituloValoresEmpresa">Tecnologia</h3>
+                <p>Nosso aplicativo fornece uma compra rápida e segura, tornando o hábito de comprar pela internet uma rotina na sua casa.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <h3 id="textoDestaque">Quero o</h3>
+                <h2 id="nomeEmpresa">Home Market</h2>
+                <p>
+                    <b>Soft open!</b>
+                </p>
+                <p>Caso esteja interessado em ter o Home Market, preencha os campos que nossa equipe entrará em contato.</p>
+            </div>
+            <!--Coluna Formulario-->
+            <div class="col-md-8 col-sm-12 col-xs-12" id="colunaFormulario">
+                <form>
+                    <div class="row">
+                        <!--Linha 'Nome' e 'Telefone'-->
+                        <div class="col-md-8 form-group">
+                            <input class="form-control" id="nome" name="nome" placeholder="Nome" type="text" required>
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <input class="form-control" id="telefone" name="telefone" placeholder="Telefone" type="text" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="E-mail" type="email" required>
+                        </div>
+                        <div class="col-md-7 form-group">
+                            <input class="form-control" id="endereco" name="endereco" placeholder="Endereço" type="text" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Mensagem" rows="3"></textarea>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <button class="btn btn-default" type="submit" id="buttonSubmit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--Fim Container Sobre a Empresa-->
+
+    <!--Inicio do Footer-->
+    <footer class="container-fluid footer">
+        <div class="row" id="linhaFooter">
+            <div class="col-md-3 col-xs-6 col-sm-6">
+                <img src="imagens\logo.png" class="img-responsive" id="logoFooter">
+                <p class="textoFooter">HomeMarket</p>
+                <p class="textoFooter" id="textoMenorFooter">Conveniência em casa</p>
+            </div>
+            <div class="col-md-3 col-xs-6 col-sm-6">
+                <p id="rua">Rua Cândido Lacerda, 71</p>
+                <p id="bairro">Torreão - Recife/PE</p>
+            </div>
+            <div class="col-md-3 col-xs-6 col-sm-6">
+                <p id="contatoEmail">contato@homemarketbr.com</p>
+            </div>
+            <div class="col-md-3 col-xs-6 col-sm-6">
+                <!--Icone do Instagram-->
+                <a class="btn btn-social-icon btn-instagram">
+                    <span class="fa fa-instagram"></span>
+                </a>
+                <!--Icone do Facebook-->
+                <a class="btn btn-social-icon btn-facebook">
+                    <span class="fa fa-facebook"></span>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!--Fim do Footer-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/a6b259f3b5.js"></script>
+</body>
+</html>
